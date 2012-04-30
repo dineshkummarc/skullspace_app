@@ -1,0 +1,286 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html {
+    background: none repeat scroll 0 0 #F1F1F1;
+    color: #333333;
+    font-family: Georgia,"Bitstream Charter",serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+body {
+    background: none repeat scroll 0 0 white;
+    font-size: 14px;
+    line-height: 24px;
+    width: 320px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+h1 {
+    font-size: 200%;
+}
+h2 {
+    font-size: 150%;
+}
+h3 {
+    font-size: 125%;
+}
+h4 {
+    font-size: 100%;
+}
+h5 {
+    font-size: 75%;
+}
+h6 {
+    font-size: 50%;
+}
+a:link {
+    color: #E96500;
+}
+a:visited {
+    color: #984200;
+}
+a:hover {
+    color: #FF6F00;
+}
+a:active {
+    color: #E09B67;
+}
+p {
+    margin-bottom: 1em;
+}
+ol, ul {
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+}
+ul {
+    list-style: square outside none;
+}
+.wrapper {
+    margin: 0 0.8em;
+}
+.clear {
+    clear: both;
+}
+h1#logo {
+    background: url("skullspace.png") no-repeat scroll 0 0 transparent;
+    height: 55px;
+    width: auto;
+    text-indent: -999em;
+}
+#site-title {
+    font-size: 30px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 18px;
+}
+#site-title a {
+    color: black;
+    font-family: 'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+#site-title a:hover, #site-title:active, #site-title:visited {
+    color: black;
+}
+#twitter_feed {
+    float: left;
+    width: 290px;
+}
+#twitter_feed ul {
+    list-style: none outside none;
+    margin: 0;
+}
+#twitter_feed li {
+    border-bottom: 1px dashed #DDDDDD;
+    padding: 1em 0;
+}
+#twitter_feed li:hover {
+    background-color: #F8F8F8;
+}
+#who-we-are {
+    float: left;
+    width: 515px;
+}
+#flickr {
+    width: 300px;
+}
+#flickr_feed {
+    background: none repeat scroll 0 0 black;
+    box-shadow: 0 0 5px black;
+    height: 375px;
+    margin: 5px 5px 1em;
+    padding: 5px;
+    width: 300px;
+}
+#flickr_feed a {
+    cursor: pointer;
+}
+#flickr_feed img {
+    -moz-transition-duration: 0.2s;
+    cursor: pointer;
+    float: left;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+#flickr_feed img:hover {
+    -moz-transform: scale(1.5);
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    z-index: 2;
+}
+.clear {
+    clear: both;
+}
+#vimeo_feed div {
+    border-bottom: 1px dashed #DDDDDD;
+    font-size: small;
+    padding: 1em;
+}
+#vimeo_feed div:hover {
+    background-color: #F8F8F8;
+}
+#vimeo_feed div img {
+    border: 1px solid #333333;
+    cursor: pointer;
+}
+ul#main-nav {
+    background: none no-repeat scroll 0 0 black;
+    height: 30px;
+    list-style: none outside none;
+    margin-right: 2.5em;
+}
+ul#main-nav li {
+    float: left;
+}
+ul#main-nav li a {
+    color: #EEEEEE;
+    display: block;
+    font-family: Arial;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    padding:0 0.5em;
+    text-align: center;
+    text-decoration: none;
+}
+ul#main-nav li a:hover {
+    background: none repeat scroll 0 0 #E7883F;
+    color: white;
+}
+#video-overlay {
+    border: medium none;
+    height: 500px;
+    width: 500px;
+}
+a#join-now {
+    background: -moz-linear-gradient(center top , #22FF00 0%, #00BD32) repeat scroll 0 0 transparent;
+    border: 1px solid #04D604;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 3px rgba(3, 2, 3, 0.5), 0 0 1px #5C5C5C inset;
+    color: white;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.698), 0 1px 0 rgba(255, 255, 255, 0.3);
+    width: 190px;
+}
+a#join-now:hover {
+    background: -moz-linear-gradient(center bottom , #22FF00 0%, #00BD32) repeat scroll 0 0 transparent;
+    border: 1px solid #04D604;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 3px rgba(3, 2, 3, 0.5), 0 0 1px #5C5C5C inset;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.698), 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+a#join-now:active {
+    box-shadow: none;
+    text-shadow: none;
+}
+.simple_overlay {
+    background-color: #333333;
+    border: 1px solid #666666;
+    box-shadow: 0 0 90px 5px #000000;
+    display: none;
+    width: 500px;
+    z-index: 10000;
+}
+.simple_overlay .close {
+    background-image: url("img/overlay/close.png");
+    cursor: pointer;
+    height: 35px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 35px;
+}
+#sidebar {
+    border-left: 1px solid #DDDDDD;
+    float: right;
+    padding-left: 1em;
+    width: 333px;
+}
+.menu {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    display: inline;
+}
+.menu li a {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    color: #000000;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+.menu li a:hover {
+    background: none repeat scroll 0 0 white;
+}
+.menu li.active a {
+    background: none repeat scroll 0 0 white;
+    border-bottom: medium none;
+    margin-top: -3px;
+    padding-top: 3px;
+}
+.tab_content {
+    clear: both;
+    float: left;
+    padding: 10px 20px 20px;
+}
+.menu li a span.count {
+    color: #D3D3D3;
+    font-size: 10px;
+}
